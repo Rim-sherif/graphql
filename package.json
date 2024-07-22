@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "20.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "express": "^4.19.2",
+"graphql": "^16.8.1",
+"graphql-http": "^1.22.0",
+"graphql-playground-middleware-express": "^1.7.23",
+"mongoose": "^8.2.3"
+  }
+}
